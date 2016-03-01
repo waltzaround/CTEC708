@@ -1,4 +1,4 @@
-# CTEC708 Studio V
+# CTEC708 VR MIDI Controller
 
 Will be placing files here throughout the semester
 
