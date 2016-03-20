@@ -4,14 +4,14 @@ using System.Collections;
 public class CubeNoteBehaviour : MonoBehaviour 
 {
 
-	//public int NoteToPlay;
+	public int NoteToPlay;
 
 	void OnTriggerEnter(Collider other) 
 	{
-		//Debug.Log ("Triggered");
+		Debug.Log ("Triggered");
 		if (other.gameObject.CompareTag("Hand"))
 		{
-			//Debug.Log (this.NoteToPlay);
+			Debug.Log (this.NoteToPlay);
 			//GetComponent("audio");
 			GetComponent<AudioSource>().Play ();
 			// Sende la OSC
