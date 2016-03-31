@@ -10,6 +10,7 @@ public class HandButtonBehaviour : MonoBehaviour {
 	public Transform Homepos;
 	public float pressDelay;
 	private float nextPress;
+	public float buttonPressInstant;
 	//private float startTime;
 	//private float journeyLength;
 	//public float speed;
@@ -68,6 +69,21 @@ public class HandButtonBehaviour : MonoBehaviour {
 		else if (other.gameObject.CompareTag ("Hand") && ButtonPressed == true && Time.time > nextPress) {
 			nextPress = Time.time + pressDelay;
 			ButtonPressed = false;
+		}
+	}
+
+	void OnMouseDown() {
+		if (Time.time > nextPress && ButtonPressed == false) {
+			nextPress = Time.time + pressDelay;
+			ButtonPressed = true;
+			buttonPressInstant = Time.time;
+			Debug.Log (buttonPressInstant + "Time: " + Time.time);
+		}
+		else if (Time.time > nextPress) {
+			nextPress = Time.time + pressDelay;
+			ButtonPressed = false;
+			buttonPressInstant = Time.time;
+			Debug.Log (buttonPressInstant + "Time: " + Time.time);
 		}
 	}
 
