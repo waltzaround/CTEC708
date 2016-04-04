@@ -21,21 +21,21 @@ public class TrackController : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		Debug.Log (musicTrack.time);
-		if (Playtab.buttonPressInstant == Time.time && Playtab.ButtonPressed == true) {
+		if (musicTrack.isPlaying == false && Playtab.ButtonPressed == true) {
 			musicTrack.Play ();
 		}
-		else if (Playtab.buttonPressInstant == Time.time && Playtab.ButtonPressed == false) {
+		else if (musicTrack.isPlaying == true && Playtab.ButtonPressed == false) {
 			musicTrack.Pause ();
 		}
 
-		if (Stoptab.buttonPressInstant == Time.time && Playtab.ButtonPressed == true) {
+		if (musicTrack.isPlaying == true && Stoptab.ButtonPressed == true) {
 			musicTrack.Stop ();
 		}
 
-		if (Looptab.buttonPressInstant == Time.time && Looptab.ButtonPressed == true) {
+		if (Looptab.ButtonPressed == true) {
 			musicTrack.loop = true;
 		}
-		else if (Looptab.buttonPressInstant == Time.time && Looptab.ButtonPressed == false) {
+		else if (Looptab.ButtonPressed == false) {
 			musicTrack.loop = false;
 		}
 
