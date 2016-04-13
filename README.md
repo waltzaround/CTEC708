@@ -7,7 +7,7 @@ We seek to explore new applications of VR technology and the potential to extend
 
 @todo sections for assessment
 - initial scoping for kinect & data quality issues
-- implementing plugins and how relying on external plugins is a dangerous move ie: you base an entire project on a plugin you find that doesn't end up working 
+- implementing plugins and how relying on external plugins is a dangerous move ie: you base an entire project on a plugin you find that doesn't end up working because there is no real way to debug or test or even check that the code is running :(
 - how that failed
 - shift to leap
 - project management
