@@ -1,6 +1,17 @@
 # CTEC708 VR MIDI Controller
 
-Will be placing files here throughout the semester
+Hello Lecturers! This section will be relevant to you :)
+
+The purpose of this project is to create a VR interface with the Oculus Rift and Leap Motion.
+We seek to explore new applications of VR technology and the potential to extend the boundaries of human-computer interaction or HCI. Exploration will be conducted with a specific focus on audio production, using VR interfaces.
+
+@todo sections for assessment
+- initial scoping for kinect & data quality issues
+- how that failed
+- shift to leap
+- project management
+- adopting toolchains
+- awesome stuff
 
 Files created for the CTEC708 Studio V paper at Auckland University of Technology
 
