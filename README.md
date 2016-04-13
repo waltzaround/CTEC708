@@ -1,4 +1,4 @@
-# CTEC708 VR MIDI Controller
+# CTEC708 VR Music Controller
 
 Hello Lecturers! This section will be relevant to you :)
 
@@ -7,6 +7,7 @@ We seek to explore new applications of VR technology and the potential to extend
 
 @todo sections for assessment
 - initial scoping for kinect & data quality issues
+- implementing plugins and how relying on external plugins is a dangerous move ie: you base an entire project on a plugin you find that doesn't end up working 
 - how that failed
 - shift to leap
 - project management
