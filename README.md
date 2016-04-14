@@ -25,7 +25,15 @@ We seek to explore new applications of VR technology and the potential to extend
 
 ###Timeline:
 
+####Week 1
 The first week was spent onboarding team members onto the toolchain (Github, SourceTree, Unity, Trello) and build processes that were essential to collaborating together on a software project. Development began slowly as ideas were drafted and conceptualized as low-fidelity models on paper.  
+
+[Team formation](https://github.com/waltzaround/CTEC708-VR-Controller/commit/87b89f97577776e13be141a01cbd0e7725c7ba1b)
+[Unity Project Initialized](https://github.com/waltzaround/CTEC708-VR-Controller/commit/85324f10db75517f170f8297c98f62bdbfae6909)
+
+####Week 2
+
+We began developing the project around the Kinect 2 SDK, and succeeded in building an early prototype that demonstrated a virtual keyboard. However, working with the SDK proved to be difficult as the data quality the sensor provided was dismally subpar. Thumbs would disappear and reappear momentarily even though the sensor had direct line of sight to user's body parts.
 
 Initial scoping with the kinect 
 
