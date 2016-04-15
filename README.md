@@ -36,10 +36,30 @@ The first week was spent onboarding team members onto some tools (Github, Source
 
 We began developing the project around the Kinect 2 SDK, and succeeded in building an early prototype that demonstrated interaction in VR between a user and a virtual keyboard. However, working with the SDK proved to be difficult as the data quality the sensor provided was dismally subpar. Thumbs would disappear and reappear momentarily even though the sensor had direct line of sight to user's body parts. Even with a single user, the sensor would lose track of the user every few minutes. We realized then that it was unsuitable for our project.
 
-
 Commit - Initial scoping with the kinect 
 
 Commit - Virtual Keyboard
+
+Commit - Virtual Keyboard Audio
+
+####Week 3-4
+
+After an immense amount of trial and error, discovered that the LiveOSC Plugin were were dependent on to interface Ableton MIDI software with our Unity Engine Project was no longer functional. We decided to scrap MIDI support as none of our team had the technical skills or time to acquire them to fix the plugin. We opted to fall back to using Unity's audio methods to ensure the project ran to completion within the deadline. We became acquainted with the OSC protocol during this time.
+
+Commit - UnityOSC boilerplate code
+
+####Week 5
+
+
+####Week 6
+
+####Week 7
+leap motion
+
+
+
+
+
 
 @todo sections for assessment
 - initial scoping for kinect & data quality issues
