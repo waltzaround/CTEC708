@@ -1,4 +1,4 @@
-# CTEC708 VR Music Controller
+# CTEC708 Matter VR Music Controller
 
 ![logo](https://github.com/waltzaround/CTEC708-VR-Controller/blob/master/images/logo.png "logo")
 
