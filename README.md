@@ -1,5 +1,8 @@
 # CTEC708 VR Music Controller
 
+![logo](https://github.com/waltzaround/CTEC708-VR-Controller/blob/master/images/logo.png "logo")
+
+
 VR music controller that requires an Oculus DK2 headset and a Leap Motion sensor to function.
 
 We have a [public Trello board](https://trello.com/b/lQ19QmZj/matter) available for viewing upcoming 
