@@ -36,6 +36,9 @@ The first week was spent onboarding team members onto some tools (Github, Source
 
 We began developing the project around the Kinect 2 SDK, and succeeded in building an early prototype that demonstrated interaction in VR between a user and a virtual keyboard. However, working with the SDK proved to be difficult as the data quality the sensor provided was dismally subpar. Thumbs would disappear and reappear momentarily even though the sensor had direct line of sight to user's body parts. Even with a single user, the sensor would lose track of the user every few minutes. We realized then that it was unsuitable for our project.
 
+![prototype 1](https://github.com/waltzaround/CTEC708-VR-Controller/blob/master/images/12980384_1116154471769855_1160455269_n.png "Prototype 1")
+
+
 Commit - Initial scoping with the kinect 
 
 Commit - Virtual Keyboard
@@ -48,7 +51,9 @@ After an immense amount of trial and error, discovered that the LiveOSC Plugin w
 
 Commit - UnityOSC boilerplate code
 
-####Week 5
+####Week 5 Leap Motion
+
+![Leap Motion prototype controller](https://github.com/waltzaround/CTEC708-VR-Controller/blob/master/images/13023358_1116154475103188_1700030371_n.png "Prototype controller")
 
 
 ####Week 6
