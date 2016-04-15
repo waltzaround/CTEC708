@@ -20,7 +20,11 @@ public class TrackController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		Debug.Log (musicTrack.time);
+		//Debug.Log (musicTrack.time);
+		if (!musicTrack.isPlaying && Playtab.ButtonPressed == true) {
+			Playtab.ButtonPressed = false;
+			//Timer.stopTheClock ();
+		}
 		if (musicTrack.isPlaying == false && Playtab.ButtonPressed == true) {
 			musicTrack.Play ();
 		}
@@ -38,11 +42,7 @@ public class TrackController : MonoBehaviour {
 		else if (Looptab.ButtonPressed == false) {
 			musicTrack.loop = false;
 		}
-
-		if (!musicTrack.isPlaying && Playtab.ButtonPressed == true) {
-			Playtab.ButtonPressed = false;
-			//Timer.stopTheClock ();
-		}
+			
 
 		if (musicTrack.time <= 0.1 && musicTrack.loop == true) {
 			Timer.stopTheClock ();
